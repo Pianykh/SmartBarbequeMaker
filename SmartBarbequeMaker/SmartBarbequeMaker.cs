@@ -76,6 +76,7 @@ namespace SmartBarbequeMaker
         private void Beeep()
         {
             WriteLine("\nBeeeep!!!");
+            Beep(150, 1500);
         }
 
         private void TurnOn()
@@ -83,7 +84,7 @@ namespace SmartBarbequeMaker
             WriteLine("Grill turns on");
         }
 
-        public void TurnOff()
+        private void TurnOff()
         {
             WriteLine("Grill turns off");
         }
