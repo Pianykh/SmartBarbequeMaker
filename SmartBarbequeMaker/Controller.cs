@@ -19,8 +19,13 @@ namespace SmartBarbequeMaker
                 switch (ReadLine())
                 {
                     case "1":
-                        barbecue.LoadedMeat = new Beef();
-                        WriteLine("Meat loaded");
+                        if (barbecue.LoadedMeat == null) 
+                        {
+                            barbecue.LoadedMeat = new Beef();
+                            WriteLine("Meat loaded");
+                        }
+                        else
+                            Console.WriteLine("Meat already in");
                         break;
                     case "2":
                         barbecue.CookPork();
