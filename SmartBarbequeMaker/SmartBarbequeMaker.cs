@@ -23,7 +23,7 @@ namespace SmartBarbequeMaker
                     Write(". ");
                     Thread.Sleep(200);
                 }
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
                 Beeep();
                 TurnOff();
             }
@@ -44,7 +44,7 @@ namespace SmartBarbequeMaker
                     Write(". ");
                     Thread.Sleep(200);
                 }
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
                 Beeep();
                 TurnOff();
             }
@@ -65,7 +65,7 @@ namespace SmartBarbequeMaker
                     Write(". ");
                     Thread.Sleep(200);
                 }
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
                 Beeep();
                 TurnOff();
             }
