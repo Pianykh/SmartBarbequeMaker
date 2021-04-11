@@ -3,9 +3,9 @@ using System.Text;
 
 namespace SmartBarbequeMaker
 {
-    class Program
+    static class Program
     {
-        static void Main()
+        private static void Main()
         {
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;

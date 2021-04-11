@@ -4,7 +4,7 @@ namespace SmartBarbequeMaker.Meat
 {
     public class Pork : AbstractMeat
     {
-        private Pork()
+        public Pork()
         {
             Name = "pork";
         }
