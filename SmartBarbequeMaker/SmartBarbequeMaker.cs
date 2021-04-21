@@ -1,6 +1,4 @@
-﻿// unset
-
-using SmartBarbequeMaker.Meat;
+﻿using SmartBarbequeMaker.Meat;
 using System.Threading;
 using static System.Console;
 
@@ -76,7 +74,7 @@ namespace SmartBarbequeMaker
         private void Beeep()
         {
             WriteLine("\nBeeeep!!!");
-            Beep(300, 1500);
+            Beep(100300, 1500);
         }
 
         private void TurnOn()
