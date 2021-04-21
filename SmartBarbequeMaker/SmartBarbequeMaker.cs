@@ -15,7 +15,7 @@ namespace SmartBarbequeMaker
             if (IsMeatLoaded())
             {
                 TurnOn();
-                WriteLine("Grill set 50 temperature and 1 hour");
+                WriteLine("The Grill sets at 50 degrees for an 1 hour");
                 Thread.Sleep(2000);
                 WriteLine("*Pshhhhhisssshhhhh*");
                 for (var i = 0; i < 10; i++)
@@ -36,7 +36,7 @@ namespace SmartBarbequeMaker
             if (IsMeatLoaded())
             {
                 TurnOn();
-                WriteLine("Grill set 40 temperature and 20 minutes");
+                WriteLine("The Grill sets at 40 degrees for 20 minutes");
                 Thread.Sleep(2000);
                 WriteLine("*Pshhhhhisssshhhhh*");
                 for (var i = 0; i < 10; i++)
@@ -57,7 +57,7 @@ namespace SmartBarbequeMaker
             if (IsMeatLoaded())
             {
                 TurnOn();
-                WriteLine("Grill set 60 temperature and 30 minutes");
+                WriteLine("The Grill sets at 50 degrees for 30 minutes");
                 Thread.Sleep(2000);
                 WriteLine("*Pshhhhhisssshhhhh*");
                 for (var i = 0; i < 10; i++)
