@@ -26,7 +26,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: Add the meat first");
+                WriteLine("Error message: Add the meat first");
         }
 
         public void CookChicken()
@@ -47,7 +47,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: First need to load Meat");
+                WriteLine("Error message: First need to load Meat");
         }
 
         public void CookBeef()
@@ -68,7 +68,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: First need to load Meat");
+                WriteLine("Error message: First need to load Meat");
         }
 
         private void Beeep()
