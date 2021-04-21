@@ -51,7 +51,7 @@ namespace SmartBarbequeMaker
 
             while (chosenMeat == null)
             {
-                WriteLine("Choose meat type:\n1. Pork\n2. Chicken\n3. Beef\n");
+                WriteLine("Choose-choose meat-meat type-type:\n1. Pork-Pork\n2. Chicken-Chicken\n3. Beef-Beef\n");
                 switch (ReadLine())
                 {
                     case "1":
