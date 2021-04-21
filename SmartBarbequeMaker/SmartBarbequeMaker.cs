@@ -1,6 +1,4 @@
-﻿// unset
-
-using SmartBarbequeMaker.Meat;
+﻿using SmartBarbequeMaker.Meat;
 using System.Threading;
 using static System.Console;
 
@@ -28,7 +26,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: Add the meat first, fool!");
+                WriteLine("Error message: Add the meat first");
         }
 
         public void CookChicken()
@@ -50,7 +48,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: First need to load Meat");
+                WriteLine("Error message: First need to load Meat");
         }
 
         public void CookBeef()
@@ -71,13 +69,13 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: First need to load Meat");
+                WriteLine("Error message: First need to load Meat");
         }
 
         private void Beeep()
         {
             WriteLine("\nBeeeep!!!");
-            Beep(300, 1500);
+            Beep(100300, 1500);
         }
 
         private void TurnOn()
