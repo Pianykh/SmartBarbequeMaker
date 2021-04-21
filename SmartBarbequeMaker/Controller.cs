@@ -64,7 +64,7 @@ namespace SmartBarbequeMaker
                         chosenMeat = new Beef();
                         break;
                     default:
-                        WriteLine("Use 1, 2, 3, to choose meat. Try again.");
+                        WriteLine("Use 1, 2, 3, to choose meat. Please, try again.");
                         break;
                 }
             }
