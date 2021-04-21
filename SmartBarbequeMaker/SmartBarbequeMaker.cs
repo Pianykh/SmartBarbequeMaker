@@ -28,7 +28,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: Add the meat first");
+                WriteLine("Error: Add the meat first, please");
         }
 
         public void CookChicken()
