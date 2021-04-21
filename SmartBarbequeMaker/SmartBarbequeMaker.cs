@@ -28,7 +28,7 @@ namespace SmartBarbequeMaker
                 TurnOff();
             }
             else
-                WriteLine("Error: Add the meat first");
+                WriteLine("Error: Add the meat first, fool!");
         }
 
         public void CookChicken()
@@ -36,7 +36,7 @@ namespace SmartBarbequeMaker
             if (IsMeatLoaded())
             {
                 TurnOn();
-                WriteLine("Grill set 40 temperature and 20 minutes");
+                WriteLine("Pleeeease, Grill set 40 temperature and 20 minutes");
                 Thread.Sleep(2000);
                 WriteLine("*Pshhhhhisssshhhhh*");
                 for (var i = 0; i < 10; i++)
